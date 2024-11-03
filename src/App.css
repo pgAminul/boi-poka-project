@@ -1,0 +1,48 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navbarActive > li > a.active {
+  border: 2px solid greenyellow;
+}
+.btnForLoginSing > li {
+  list-style: none;
+}
+.t {
+  top: 65px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0% {
+    top: -10px;
+  }
+}
+
+/* .Home {
+  height: calc(100vh - 312px);
+} */
+
+.mainHomePage {
+  background: url("../src/assets/Book.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+.homeBgColor {
+  background-color: rgba(0, 0, 0, 0.497);
+  height: 500px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.ListBooks {
+  height: calc(100vh - 312px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
